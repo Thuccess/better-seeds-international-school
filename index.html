@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Better Seeds International School</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A professional, visually elegant, and responsive website prototype for Better Seeds International School, showcasing its programs, values, and admission process." />
+    <meta name="keywords" content="Better Seeds, International School, Kampala, Uganda, education, academics, admissions, primary school, junior high" />
+    <link rel="canonical" href="https://betterseeds.edu" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://betterseeds.edu" />
+    <meta property="og:title" content="Better Seeds International School" />
+    <meta property="og:description" content="Nurturing global leaders of tomorrow through academic excellence and character development in Kampala, Uganda." />
+    <meta property="og:image" content="https://picsum.photos/1200/630?image=29" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://betterseeds.edu" />
+    <meta property="twitter:title" content="Better Seeds International School" />
+    <meta property="twitter:description" content="Nurturing global leaders of tomorrow through academic excellence and character development in Kampala, Uganda." />
+    <meta property="twitter:image" content="https://picsum.photos/1200/630?image=29" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700;800&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        poppins: ['Poppins', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        'brand-blue': '#1a3a69',
+                        'brand-blue-dark': '#0f223d',
+                        'brand-gold': '#c9a96a',
+                        'brand-green': '#3a643b',
+                    },
+                    animation: {
+                        kenburns: 'kenburns 20s ease-out forwards',
+                    },
+                    keyframes: {
+                        kenburns: {
+                            '0%': { transform: 'scale(1) translate(0, 0)', transformOrigin: 'center center' },
+                            '100%': { transform: 'scale(1.15) translate(5px, -10px)', transformOrigin: 'center center' },
+                        }
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        /* To prevent layout shift while fonts are loading */
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Playfair Display', serif; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.4",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
+    "cors": "https://aistudiocdn.com/cors@^2.8.5",
+    "express": "https://aistudiocdn.com/express@^5.1.0",
+    "nodemailer": "https://aistudiocdn.com/nodemailer@^7.0.9"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-white text-gray-800 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
